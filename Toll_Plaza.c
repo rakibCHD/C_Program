@@ -33,23 +33,7 @@ void user_Login()
         printf("Login sucessfull.");
         clearConsole();
         display();
-      }
-    else if(strcmp(userID,"emon")==0 && strcmp(password,"emon")==0)
-      {
-        strcpy(collectorName,userID);
-        printf("Login sucessfull.");
-        clearConsole();
-        display();
-      }
-
-    else if(strcmp(userID,"man")==0 && strcmp(password,"man")==0)
-      {
-        strcpy(collectorName,userID);
-        printf("Login sucessfull.");
-        clearConsole();
-        display();
-      }
-
+      }    
     else
     {
       printf("Invalid UserId Or password!!\n");
