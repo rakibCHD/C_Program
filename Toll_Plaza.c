@@ -41,7 +41,6 @@ void user_Login()
     }
 }
 
-
 void clearConsole()
 {
     COORD topLeft = {0, 0};
